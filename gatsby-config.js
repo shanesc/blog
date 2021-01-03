@@ -5,9 +5,9 @@ module.exports = {
       name: `Shane Mitchell`,
     },
     description: `The personal blog of Shane Mitchell.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    siteUrl: `https://blog.shanemitchell.dev/`,
     social: {
-      twitter: `shane_io`,
+      twitter: `shanem_io`,
     },
   },
   plugins: [
