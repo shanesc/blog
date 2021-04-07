@@ -12,7 +12,9 @@ There's a number of various guidelines that define REST, but there are a couple 
 ## First, what is an API?
 Before getting into what REST is, let's briefly describe an API.
 
-**An API (Application Programming Interface) is a way of communicating with an application and tapping into some of its functionality.** For example, an API can be used to request information (data) from an application, or used to run complex computations on data passed into an API request. The application's API exposes its functionality as methods, operations, endpoints, etc., and the specific language of the API depends on the application.
+**An API (Application Programming Interface) is a way of communicating with an application and tapping into some of its functionality.**
+
+For example, an API can be used to request information (data) from an application, or used to run complex computations on data passed into an API request. The application's API exposes its functionality as methods, operations, endpoints, etc., and the specific language of the API depends on the application.
 
 _Note: in order to use an API, you need to know the functionality available and the format which it expects the request/response to be in._
 
