@@ -14,7 +14,7 @@ Before getting into what REST is, let's briefly describe an API.
 
 **An API (Application Programming Interface) is a way of communicating with an application and tapping into some of its functionality.** For example, an API can be used to request information (data) from an application, or used to run complex computations on data passed into an API request. The application's API exposes its functionality as methods, operations, endpoints, etc., and the specific language of the API depends on the application.
 
-_Note: in order to use an API, you need to know the functionality available and the format which it expects the the request/response to be in._
+_Note: in order to use an API, you need to know the functionality available and the format which it expects the request/response to be in._
 
 As an analogy, imagine a  vending machine. A customer walks up to the vending machine, sees a bunch of buttons for different sodas, and presses the button for the one they want. The vending machine then does a bunch of stuff behind the scenes, and pops out the soda.
 
@@ -59,7 +59,7 @@ One component of reliable and scalable web applications is separation of concern
 
 When the client and server communicate via the REST API, they are sending JSON representational snapshots of data at the time of transfer. The data could change one second after the API transfer, but what the client received remains unchanged. In other words, outside of the API call, neither knows anything about the state of the other.
 
-Additionally, different clients can use the API to communicate with the server, and the server will happily perform its functions for them all. And once the client has received its *representation* of the data in response, it doesn't care what the server does afterward.
+Additionally, different clients can use the API to communicate with the server, and the server will happily perform its functions for them all. And once the client has received its snapshot of the data in response, it doesn't care what the server does afterward.
 
 Again, outside of the API, the server and any of its clients are not concerned with each other.
 
