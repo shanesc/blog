@@ -8,7 +8,7 @@ date: "2021-04-26"
 Pair programming – two programmers working together on one workstation at the same time – is easy enough to do when both people are sitting at the same computer. But when attempting to pair program remotely, there is a little bit of setup required to get an effective workspace. Fortunately, if both programmers are using Visual Studio Code, it is easy to setup using a few great extensions – [Live Share][live_share], [Live Server][live_server], and [Live Share Pomodoro][ls_pomodoro].
 
 ## Background
-As part of the curriculum for [The Odin Project](https://www.theodinproject.com), I am currently working on an assignment to create a Pomodoro Timer application. But, the real purpose of the project is to introduce the students to pair programming. And seeing that the course is all online, the first step (after finding a partner) is setting up the workspace to replicate in-person pair programming.
+As part of the curriculum for [The Odin Project](https://www.theodinproject.com), I worked on an assignment to create a Pomodoro Timer application. But the real purpose of the project was to introduce students to pair programming. And seeing that the course is all online, the first step (after finding a partner) was setting up the workspace to replicate in-person pair programming.
 
 I use VS Code, and lucky for me Microsoft has developed the Live Share extension that allows collaborative coding on a hosts local files to all invited participants. This, coupled with a couple other extensions, makes for a very effective pair programming environment, which should be as effective as in-person pairs.
 
