@@ -17,7 +17,7 @@ I use VS Code, and lucky for me Microsoft has developed the Live Share extension
 If you don't already have VS Code installed, [download and install](https://code.visualstudio.com/download) for your operating system.
 
 > **Important Note:**
-> VS Code and the extensions must be installed on both programmers computers in order to be used together.
+> VS Code and the extensions must be installed on both programmers' computers in order to be used together.
 
 ### Install Extensions
 
