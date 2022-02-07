@@ -1,14 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Shane Mitchell`,
+    title: `Shane Mitchell's Blog`,
     author: {
       name: `Shane Mitchell`,
     },
-    description: `The personal blog of Shane Mitchell.`,
+    description: `A software blog`,
     siteUrl: `https://blog.shanemitchell.dev/`,
-    social: {
-      twitter: `shanem_io`,
-    },
   },
   plugins: [
     {
@@ -59,13 +56,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Shane Mitchell's Blog`,
+        short_name: `SM Blog`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/logo-large.png`,
       },
     },
     `gatsby-plugin-react-helmet`,

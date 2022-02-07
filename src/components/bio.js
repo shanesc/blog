@@ -5,9 +5,9 @@
  * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
 
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
+import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import Image from "gatsby-image";
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -24,45 +24,48 @@ const Bio = () => {
           author {
             name
           }
-          social {
-            twitter
-          }
         }
       }
     }
-  `)
+  `);
 
   // Set these values by editing "siteMetadata" in gatsby-config.js
-  const author = data.site.siteMetadata?.author
+  const author = data.site.siteMetadata?.author;
 
-  const avatar = data?.avatar?.childImageSharp?.fixed
+  const avatar = data?.avatar?.childImageSharp?.fixed;
 
   return (
     <div className="bio">
-      {avatar && (
-        <Image
-          fixed={avatar}
-          alt={author?.name || ``}
-          className="bio-avatar"
-          imgStyle={{
-            borderRadius: `50%`,
-          }}
-        />
-      )}
-      {author?.name && (
-        <>
-          <p>
-            A collection of my posts while I learn to make software.
-            <br></br>
-            Check out my projects{" "}
-            <a href="https://www.shanemitchell.dev" target="_blank" rel="noreferrer">
-              <strong>here.</strong>
-            </a>
-          </p>
-        </>
-      )}
+      <Image
+        fixed={avatar}
+        alt={author?.name || ``}
+        className="bio-avatar"
+        imgStyle={{
+          borderRadius: `50%`,
+        }}
+      />
+      <p>
+        I'm a software engineer and this is my blog.
+        <br></br>
+        Find me on{" "}
+        <a
+          href="https://www.linkedin.com/in/shanewmitchell/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <strong>LinkedIn</strong>
+        </a>
+        ,{" "}
+        <a href="https://github.com/shanesc" target="_blank" rel="noreferrer">
+          <strong>GitHub</strong>
+        </a>
+        , and{" "}
+        <a href="https://dev.to/shanesc" target="_blank" rel="noreferrer">
+          <strong>Dev.to</strong>
+        </a>
+      </p>
     </div>
-  )
-}
+  );
+};
 
-export default Bio
+export default Bio;
