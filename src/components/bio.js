@@ -45,7 +45,7 @@ const Bio = () => {
         }}
       />
       <p>
-        I'm a software engineer and this is my blog.
+        👋 I'm a software engineer and this is my blog.
         <br></br>
         Find me on{" "}
         <a
