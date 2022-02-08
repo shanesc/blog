@@ -3,7 +3,7 @@ title: Named vs. Default Exports in ES6 Modules
 date: "2021-01-01"
 ---
 
-![Splash Image](./splash.png)
+![Code snippet](./splash.png)
 
 JavaScript Modules using ES6 syntax have two different types of exports: **named** and **default**.
 

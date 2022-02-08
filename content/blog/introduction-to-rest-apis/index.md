@@ -3,7 +3,7 @@ title: An introduction to REST APIs
 date: "2021-04-07"
 ---
 
-![Splash Image](./splash.png)
+![Letters R E S T](./splash.png)
 
 The term "REST API" (aka "RESTful API") is thrown around all the time when talking about web applications. But what exactly does the term REST mean? And why is it important to API design?
 

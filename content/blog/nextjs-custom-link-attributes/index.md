@@ -3,7 +3,7 @@ title: Next.js Custom Link Attributes
 date: "2022-01-04"
 ---
 
-![Splash Image](./splash.png)
+![Code snippet](./splash.png)
 
 Next.js provides a nifty little `Link` component, which allows internal linking within your React application without causing a page refresh.
 
